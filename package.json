@@ -1,6 +1,6 @@
 {
   "name": "orario-giulia",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "description": "Lessons timetable for Giulia",
   "main": "./src/index.js",

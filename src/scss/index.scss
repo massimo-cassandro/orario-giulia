@@ -1,6 +1,5 @@
-@import '@massimo-cassandro/m-utilities/scss-fw/funcs/color-yiq';
-// @import '@massimo-cassandro/m-utilities/scss-fw/funcs/media-queries';
-@import './media-queries';
+@import './scss-fw/funcs/color-yiq';
+@import './scss-fw/funcs/media-queries';
 
 @import './vars';
 @import './fonts-archivo';
@@ -26,27 +25,27 @@
 @import '@massimo-cassandro/cookie-consent/src/cookie-consent';
 
 
-@import '@massimo-cassandro/m-utilities/scss-fw/base/root';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/base';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/typography';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/borders';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/backgrounds';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/alerts';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/anchors';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/details';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/flex';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/container';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/flexgrid';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/buttons';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/forms';
-// @import '@massimo-cassandro/m-utilities/scss-fw/base/box';
-// @import '@massimo-cassandro/m-utilities/scss-fw/base/transforms';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/utilities';
-@import '@massimo-cassandro/m-utilities/scss-fw/base/sr-only';
+@import './scss-fw/base/root';
+@import './scss-fw/base/base';
+@import './scss-fw/base/typography';
+@import './scss-fw/base/borders';
+@import './scss-fw/base/backgrounds';
+@import './scss-fw/base/alerts';
+@import './scss-fw/base/anchors';
+@import './scss-fw/base/details';
+@import './scss-fw/base/flex';
+@import './scss-fw/base/container';
+@import './scss-fw/base/flexgrid';
+@import './scss-fw/base/buttons';
+@import './scss-fw/base/forms';
+// @import './scss-fw/base/box';
+// @import './scss-fw/base/transforms';
+@import './scss-fw/base/utilities';
+@import './scss-fw/base/sr-only';
 
-@import '@massimo-cassandro/m-utilities/scss-fw/base/dark-theme';
+@import './scss-fw/base/dark-theme';
 
-@import '@massimo-cassandro/m-utilities/scss-fw/base/print';
+@import './scss-fw/base/print';
 
 @import './layout';
 @import './orario';
