@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"favorites.resources": [
+			"node_modules/@fontsource",
+			"node_modules/@massimo-cassandro"
+		],
+    "liveServer.settings.root": "/build/"
+	}
+}

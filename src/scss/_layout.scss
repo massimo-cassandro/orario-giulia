@@ -1,0 +1,44 @@
+html, body, .content {
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.main-header {
+  padding: .5rem 0 .2rem;
+  text-align: center;
+
+  // background-color: var(--color-neutral-xxlight);
+  border-bottom: 2px solid var(--color-neutral-light);
+
+  h1 {
+    position: relative;
+    top: -5px;
+    margin: 0;
+    font-size: 3rem;
+    line-height: 1;
+    text-transform: lowercase;
+    @extend %font-wght-xxlight;
+  }
+}
+footer {
+  padding: .5rem 0;
+  margin-top: auto;
+  font-size: 70%;
+  color: var(--color-neutral-dark);
+  text-align: center;
+  background-color: var(--color-neutral-xxlight);
+  border-top: 1px solid var(--color-neutral-light);
+  p {
+    margin-bottom: .5rem;
+  }
+}
+
+main {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

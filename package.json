@@ -1,0 +1,60 @@
+{
+  "name": "orario-giulia",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Lessons timetable for Giulia",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massimo-cassandro/orario-giulia.git#main"
+  },
+  "author": "Massimo Cassandro",
+  "license": "MIT",
+  "scripts": {
+    "start": "BROWSER='Firefox Developer Edition' PORT=3012 react-scripts start",
+    "build": "react-scripts build && node addPreload.js",
+    "lighthouse": "lighthouse http://localhost:3012/ --output-path=./lighthouse-results.html --view --screenEmulation.width=1280 --screenEmulation.height=900 --screenEmulation.deviceScaleFactor=1",
+    "scss-test": "npx sass src/scss/index.scss scss-test/orario-lezioni-test.css --no-source-map --load-path=node_modules/ --style=expanded --watch",
+    "test": "react-scripts test",
+    "eject": "#react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@fontsource/archivo": "^4.5.1",
+    "@massimo-cassandro/cookie-consent": "^3.0.0",
+    "@massimo-cassandro/m-utilities": "^4.4.0",
+    "css-reset-and-normalize": "^2.3.5",
+    "nodemailer": "^6.6.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "eslint": "^7.32.0",
+    "sass": "^1.42.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-twbs-bootstrap": "^2.2.3",
+    "web-vitals": "^1.1.2"
+  }
+}
