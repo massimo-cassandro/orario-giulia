@@ -1,5 +1,6 @@
 @import '@massimo-cassandro/m-utilities/scss-fw/funcs/color-yiq';
-@import '@massimo-cassandro/m-utilities/scss-fw/funcs/media-queries';
+// @import '@massimo-cassandro/m-utilities/scss-fw/funcs/media-queries';
+@import '../../node_modules/@massimo-cassandro/m-utilities/scss-fw/funcs/_media-queries.scss';
 
 @import './vars';
 @import './fonts-archivo';
